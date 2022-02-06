@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.banner-image {
+  height: calc(100vh - 60px);
+  object-fit: cover;
+  object-position: center;
+}
+.banner-button {
+  color: #149bf3;
+}
+.wedding-img {
+  width: 100%;
+}
+
+.toast-parent {
+  position: relative;
+}
+.toast-position {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 5px solid #149bf3;
+}
+.chart {
+  padding: 20px 0px 20px 20px;
+  margin-top: 30px;
+}
+.team {
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+.btn-pay {
+  align-items: center;
+  appearance: none;
+  background-color: #3eb2fd;
+  background-image: linear-gradient(1deg, #4f58fd, #149bf3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s, background-position 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.btn-pay:active,
+.btn-pay:focus {
+  outline: none;
+}
+
+.btn-pay:hover {
+  background-position: -20px -20px;
+}
+
+.btn-pay:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 0.125em;
+}
+.cheak-mark {
+  width: 18px;
+  padding-right: 2px;
+}
+.highlight-chart {
+  margin-top: -16px;
+  padding-left: 40px;
+  position: relative;
+  background-color: #4f58fd;
+  border-radius: 20px;
+  color: #ffffff;
+  line-height: 30px;
+}
+.Hot-btn {
+  padding: 1px 10px 1px 10px;
+  background-color: red;
+  border-radius: 18px;
+  position: absolute;
+  left: 75%;
+  top: -20px;
+  font-weight: 700;
+}
+.people {
+  width: 90%;
+  margin-left: 10px;
+}
+.footer-btn {
+  margin-left: 200px;
+}
+@media screen and (max-width: 768px) {
+  .banner-image {
+    height: 40vh;
+  }
+  .footer-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .footer-btn {
+    margin-left: 50px;
+  }
+}
